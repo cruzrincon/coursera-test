@@ -55,20 +55,20 @@ section.sushi-header > h2 {
 /* --- Large Responsive Styles --- */
 
 @media (min-width: 992px) {
-	.col-lg-4 {
+	.col-lg {
 		width: 33.33%;
 		float: left;
 	}
 
-	.col-lg-4.chicken-box {
+	.col-lg.chicken-box {
 		padding: 0 10px 0 20px;
 	}
 
-	.col-lg-4.beef-box {
+	.col-lg.beef-box {
 		padding: 0 15px;
 	}
 
-	.col-lg-4.sushi-box {
+	.col-lg.sushi-box {
 		padding: 0 20px 0 10px;
 	}
 }
@@ -76,16 +76,16 @@ section.sushi-header > h2 {
 /* --- Medium Responsive Styles --- */
 
 @media (min-width: 768px) and (max-width: 991px) {
-	.col-md-6 {
+	.col-md {
 		width: 50%;
 		float: left;
 	}
 
-	.col-md-6.chicken-box {
+	.col-md.chicken-box {
 		padding: 0 10px 0 20px;
 	}
 
-	.col-md-6.beef-box {
+	.col-md.beef-box {
 		padding: 0 20px 0 10px;
 	}
 
