@@ -1,0 +1,183 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+
+}
+
+/** HEADER **/
+
+#header-nav {
+  background-color: #FFFACD;
+  border-radius: 0;
+  border-bottom: 1px solid #A52A2A;
+  position: relative;
+}
+
+#logo-img {  
+  background: url('../images/logo.svg') no-repeat center;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 35px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Merienda One', cursive;
+  color: #557c3e;
+  font-size: 1.75em;
+  font-weight: bold;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand p { /* Kosher cert */
+  color: #A52A2A;
+  font-size: 0.85em;
+  margin-top: 15px;
+}
+
+.navbar-toggle:active {
+	background-color: #A52A2A;
+
+}
+
+#collapsable-nav {
+	border-color: #A52A2A;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #A52A2A;
+  text-align: center;
+ }
+
+ #nav-list a:hover {
+  background: #FFE4C4;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #A52A2A;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#our-menu {
+	margin-bottom: 40px;
+}
+
+#Chicken, #Beef, #Sushi {
+	background-color: #E6E6FA;
+	border: 1px solid #666;
+	padding: 0 30px 15px 30px;
+	margin-bottom: 20px;
+}
+
+/*
+.col-xs-12 {
+	clear: both;
+}
+
+.center-block {
+	float: none;
+}
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#logo-img {
+		background-size: 100px 100px;
+		height: 100px;
+		width: 100px;
+	}
+
+	.navbar-brand {
+		padding-top: 25px;
+	}
+
+	.navbar-brand h1 {
+		font-size: 1.25em;
+	}
+
+	.navbar-brand p {
+		font-size: .75em;
+		margin-top: 5px;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+#logo-img {
+		background-size: 100px 100px;
+		height: 100px;
+		width: 100px;
+		margin-left: 35px;
+	}
+
+	.navbar-brand {
+		padding-top: 25px;
+	}
+
+	.navbar-brand h1 {
+		font-size: 1.25em;
+		margin-left: -15px;
+	}
+
+	.navbar-brand p {
+		font-size: .75em;
+		margin-top: 5px;
+		margin-left: -15px;
+	}
+
+}
+
+@media (max-width: 479px) {
+	#logo-img {
+		display: none;
+	}
+
+	#branding {
+		height: 80px;
+		margin-left: 20px;
+	}
+
+	.navbar-brand {
+		padding-top: 10px;
+	}
+
+	.navbar-brand h1 {
+	font-size: 1.25em;
+	margin-left: -15px;
+	}
+
+	.navbar-brand p {
+		font-size: .75em;
+		margin-top: 5px;
+		margin-left: -15px;
+	}
+}
