@@ -38,6 +38,7 @@ body {
 
 .navbar-brand p {
 	color: #A52A2A;
+	font-family: 'Merienda One', cursive;
 	font-size: 0.85em;
 	margin-top: 15px;
 }
@@ -80,6 +81,8 @@ body {
 /* Main Content */
 
 #our-menu {
+	font-family: 'Merienda One', cursive;
+	color: #A52A2A;
 	margin-bottom: 40px;
 }
 
@@ -88,6 +91,10 @@ body {
 	border: 1px solid #666;
 	padding: 0 30px 15px 30px;
 	margin-bottom: 20px;
+}
+
+.food-title {
+	font-family: 'Merienda One', cursive;
 }
 
 /* Medium Devices */
